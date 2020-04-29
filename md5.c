@@ -150,9 +150,6 @@ int main( int argc, char *argv[] )
 {
     int j,k;
     const char *msg = "123456";
-    printf("----------------------------------------------------\n");
-    printf("-------------Made by C codechamp--------------------\n");
-    printf("----------------------------------------------------\n\n");
     printf("\t MD5 ENCRYPTION ALGORITHM IN C \n\n");
     printf("Input String to be Encrypted using MD5 : \n\t%s",msg);
     unsigned *d = md5(msg, strlen(msg));
